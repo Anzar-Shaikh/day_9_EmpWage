@@ -16,7 +16,6 @@ class utilityEmpWage{
     public int dailyWage ;
     public int hrs =0;
 
-
     public void present() {
         while (workingHr<maxWorkingHr && workingDays < maxWorkingDays) {
             int check = rand.nextInt(3)+1;
@@ -44,5 +43,6 @@ public class EmpWage {
         System.out.println("Welcome to employee wage computation problem.");
         utilityEmpWage empWage = new utilityEmpWage();
         empWage.present();
+
     }
 }
