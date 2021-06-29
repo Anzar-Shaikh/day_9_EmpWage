@@ -9,6 +9,8 @@ class utilityEmpWage{
     public int wagePerHr = 20;
     public int fullDayHr = 8;
     public int partTimeHr = 4;
+    public int maxWorkingDays = 20;
+    public int workingDays = 0 ;
     public int dailyWage ;
 
 
